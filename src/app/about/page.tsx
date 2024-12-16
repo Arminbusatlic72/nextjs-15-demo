@@ -5,7 +5,7 @@ export default function About() {
   console.log(router);
 
   return (
-    <>
+    <div className="min-h-screen">
       <h1>About Us</h1>
       <button
         onClick={() => router.push("/")}
@@ -13,6 +13,6 @@ export default function About() {
       >
         Go to Home
       </button>
-    </>
+    </div>
   );
 }
